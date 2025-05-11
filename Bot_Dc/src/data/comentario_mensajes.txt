@@ -1,0 +1,11 @@
+// Esta base de datos almacena y encripta los mensajes de todos los usuarios del servidor para motivos de seguridad
+// y legales siempre respetando la privacidad de los usuarios usando un encriptador AES. 256SH
+// El formato de la base de datos es el siguiente:
+// La primera seccion indicara cual es el usuario que envio el mensaje
+// La segunda seccion indicara el mensaje encriptado
+// La tercera seccion indicara la fecha y hora en la que fue enviado el mensaje
+// La cuarta seccion indicara el id del mensaje
+// La quinta seccion indicara el id del usuario que envio el mensaje
+// La sexta seccion indicara el id del canal al que fue enviado el mensaje
+// La septima seccion indicara el id del servidor al que fue enviado el mensaje
+// La octava seccion indicara el id del mensaje original si es una respuesta
